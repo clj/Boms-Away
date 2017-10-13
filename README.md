@@ -81,6 +81,16 @@ select `Save Schematic` from the menu.
 
 ## Changes
 
+### 13/10/17
+
+* Add setup.py with ability to build OS X .app bundles
+  `python setup.py py2app` to build the .app
+* Added icon, modified from the original CSV icon, which was obtained from:
+  https://www.flaticon.com/free-icon/csv_136534
+  Credit: "Icons made by Smashicons from www.flaticon.com is licensed by CC 3.0 BY"
+  The .svg has been processed into an .icns file using:
+  https://gist.github.com/clj/c8a3d74ae99e53792512f05f01832037
+
 ### 8/12/16
 
 * Properly handle multi-unit components.  Now components with multiple
