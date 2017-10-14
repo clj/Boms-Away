@@ -1,5 +1,6 @@
 language: c
 os: osx
+osx_image: xcode9.1
 script: tox -e py2app
 before_install:
 - brew install python
