@@ -1,7 +1,8 @@
-language: python
+language: c
 os: osx
 script: tox -e py2app
 before_install:
+- brew install python
 - brew install wxmac
 deploy:
   skip_cleanup: true
